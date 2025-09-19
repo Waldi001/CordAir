@@ -1,0 +1,185 @@
+header {
+    font-size: 20px ;
+    text-decoration: none ;
+    font-style: small-caps;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    text-align: end;
+}
+.nav .nav-item img.nav-link.disabled {
+    height: 2.3em;   
+    width: auto;
+    vertical-align: middle;
+    padding: 0;   
+    margin-right: 0.5em; 
+}
+
+h1 {
+    color: rgb(95, 160, 190);
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style:normal;
+}
+#p1{
+    color: black;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+#BuenosAires {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    border: 100cap; color: rgb(216, 216, 216);
+
+    background-image:url("Buenos-Aires.webp");
+    background-size:cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px; 
+    max-width: 800px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    margin: 20px auto;
+    
+        #p2 {
+        color: rgb(110, 66, 151);
+        text-align: center;
+        text-shadow: none;
+        background-color: aliceblue;
+        background-position: center;
+        padding: 40px;
+        border-radius: 10px; 
+        max-width: 600px; 
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        margin: 10px auto; 
+}
+}
+
+#Cataratas {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    border: 100cap; color: rgb(216, 216, 216);
+
+    background-image:url("cataratas-iguazu.jpg");
+    background-size:cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px; 
+    max-width: 800px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    margin: 20px auto;
+
+            #p3 {
+            color: rgb(51, 122, 51);
+            text-align: center;
+            text-shadow: none;
+            background-color: aliceblue;
+            background-position: center;
+            padding: 40px;
+            border-radius: 10px; 
+            max-width: 600px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            margin: 10px auto; 
+}
+}
+#Mendoza{
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    border: 100cap; color: rgb(216, 216, 216);
+
+    background-image:url("patagonia.webp");
+    background-size:cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px; 
+    max-width: 800px; 
+    box-shadow: 0 4px 15px rgba(82, 82, 82, 0.5);
+    margin: 20px auto;
+
+        #p4 {
+            color: rgb(51, 90, 122);
+            text-align: center;
+            text-shadow: none;
+            background-color: aliceblue;
+            background-position: center;
+            padding: 40px;
+            border-radius: 10px; 
+            max-width: 600px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            margin: 10px auto;
+}
+}
+
+#PenínsulaValdés {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    border: 100cap; color: rgb(216, 216, 216);
+
+    background-image:url("PenínsulaValdés.jpg");
+    background-size:cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px; 
+    max-width: 800px; 
+    box-shadow: 0 4px 15px rgba(82, 82, 82, 0.5);
+    margin: 20px auto;
+
+        #p5 {
+            color: rgb(75, 55, 52);
+            text-align: center;
+            text-shadow: none;
+            background-color: aliceblue;
+            background-position: center;
+            padding: 40px;
+            border-radius: 10px; 
+            max-width: 600px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            margin: 10px auto;
+}
+}
+#ushuaia {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    border: 100cap; color: rgb(216, 216, 216);
+
+    background-image:url("ushuaia.jpeg");
+    background-size:cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px; 
+    max-width: 800px; 
+    box-shadow: 0 4px 15px rgba(82, 82, 82, 0.5);
+    margin: 20px auto;
+
+        #p6 {
+            color: rgb(143, 96, 8);
+            text-align: center;
+            text-shadow: none;
+            background-color: aliceblue;
+            background-position: center;
+            padding: 40px;
+            border-radius: 10px; 
+            max-width: 600px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            margin: 10px auto;
+}
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}

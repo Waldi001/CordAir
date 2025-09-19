@@ -1,0 +1,15 @@
+header {
+    font-size: 20px ;
+    text-decoration: none ;
+    font-style: small-caps;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    text-align: end;
+}
+.nav .nav-item img.nav-link.disabled {
+    height: 2.3em;   
+    width: auto;
+    vertical-align: middle;
+    padding: 0;   
+    margin-right: 0.5em; 
+}
