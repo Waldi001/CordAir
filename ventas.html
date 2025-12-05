@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CordAir</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ventasstyle.css">
+</head>
+<body>
+    <header>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <img class="nav-link disabled" src="LogoArgentina.png" alt="imagen">
+        </li>
+    <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="Inicio.html" >Inicio</a>
+    </li> 
+    <li class="nav-item">
+    <a class="nav-link active" href="ventas.html">ventas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+    </li>
+
+</ul>
+   <!-- Destinos destacados -->
+  <section id="destinos-argentina" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Destinos destacados en Argentina</h2>
+      <div class="row g-4">
+
+        <!-- Buenos Aires -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://media.iatitravelinsurance.com/wp-content/uploads/sites/7/2024/11/30001424/cosas-gratis-que-hacer-en-argentina.jpg" class="card-img-top" alt="Buenos Aires">
+            <div class="card-body">
+              <h5 class="card-title">Buenos Aires</h5>
+              <p class="card-text">Capital cosmopolita, tango, gastronomía y vida nocturna vibrante.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="Buenos Aires">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mendoza -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://www.clarin.com/2021/02/13/KYw48RIU7_1200x0__1.jpg" class="card-img-top" alt="Mendoza">
+            <div class="card-body">
+              <h5 class="card-title">Mendoza</h5>
+              <p class="card-text">Ruta del vino, montañas imponentes y aventuras al aire libre.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="Mendoza">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bariloche -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://www.interpatagonia.com/paseos/costanera-bariloche/costanera-bariloche-3.jpg" class="card-img-top" alt="Bariloche">
+            <div class="card-body">
+              <h5 class="card-title">Bariloche</h5>
+              <p class="card-text">Lagos, montañas, naturaleza y actividades todo el año.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="Bariloche">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- El Calafate -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://glampingsouth.com/wp-content/uploads/El-Calafate-1.jpg" class="card-img-top" alt="El Calafate">
+            <div class="card-body">
+              <h5 class="card-title">El Calafate</h5>
+              <p class="card-text">Glaciar Perito Moreno y naturaleza salvaje en la Patagonia.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="El Calafate">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Salta -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://voyasalta.com.ar/wp-content/uploads/2023/04/ver-1.jpg" class="card-img-top" alt="Salta">
+            <div class="card-body">
+              <h5 class="card-title">Salta</h5>
+              <p class="card-text">Cultura andina, arquitectura colonial y paisajes del norte.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="Salta">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ushuaia -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2022/05/14/6280662b1a91a.jpeg" class="card-img-top" alt="Ushuaia">
+            <div class="card-body">
+              <h5 class="card-title">Ushuaia</h5>
+              <p class="card-text">Fin del mundo, paisajes extremos y aventura en la naturaleza.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="Ushuaia">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Iguazú -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://denomades.imgix.net/destinos/puerto-iguazu/1141/catarats-de-iguazu-argentina.jpg" class="card-img-top" alt="Iguazú">
+            <div class="card-body">
+              <h5 class="card-title">Iguazú</h5>
+              <p class="card-text">Cataratas espectaculares, selva subtropical y biodiversidad.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="Iguazú">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Puerto Madryn -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJWwa3OHvF-hHSZ8G-2Gbmb7oEFhJHREdm5g&s" class="card-img-top" alt="Puerto Madryn">
+            <div class="card-body">
+              <h5 class="card-title">Puerto Madryn</h5>
+              <p class="card-text">Fauna marina, actividades náuticas y paisajes costeros únicos.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="Puerto Madryn">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Villa La Angostura -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://bariloche.org/wp-content/uploads/2021/11/mirador-lago-espejo-villa-la-angostura-neuquen-barilocheorg.jpg" class="card-img-top" alt="Villa La Angostura">
+            <div class="card-body">
+              <h5 class="card-title">Villa La Angostura</h5>
+              <p class="card-text">Bosques, lagos y tranquilidad en la naturaleza patagónica.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="Villa La Angostura">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Córdoba -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://www.argentina.gob.ar/sites/default/files/cordoba-la-canada-landing.jpg" class="card-img-top" alt="Córdoba">
+            <div class="card-body">
+              <h5 class="card-title">Córdoba</h5>
+              <p class="card-text">Serranías, ríos y escapadas naturales desde la ciudad de las sierras.</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#reservaModal" data-destino="Córdoba">Ver vuelos</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal de Reserva -->
+  <div class="modal fade" id="reservaModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          <h5 class="modal-title">Reservar vuelo a <span id="destinoSeleccionado"></span></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        
+        <div class="modal-body">
+          <form id="reservaForm" class="row g-3">
+
+            <!-- Origen -->
+            <div class="col-12">
+              <div class="card p-3 shadow-sm">
+                <h6 class="mb-3">Origen</h6>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="origen" class="form-label">Provincia</label>
+                    <select id="origen" class="form-select" required>
+                      <option value="">Seleccione provincia</option>
+                      <option value="Buenos Aires">Buenos Aires</option>
+                      <option value="Mendoza">Mendoza</option>
+                      <option value="Río Negro">Río Negro</option>
+                      <option value="Santa Cruz">Santa Cruz</option>
+                      <option value="Salta">Salta</option>
+                      <option value="Tierra del Fuego">Tierra del Fuego</option>
+                      <option value="Misiones">Misiones</option>
+                      <option value="Chubut">Chubut</option>
+                      <option value="Neuquén">Neuquén</option>
+                      <option value="Córdoba">Córdoba</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="origen-aeropuerto" class="form-label">Aeropuerto</label>
+                    <select id="origen-aeropuerto" class="form-select" required>
+                      <option value="">Seleccione aeropuerto</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fechas -->
+            <div class="col-12">
+              <div class="card p-3 shadow-sm">
+                <h6 class="mb-3">Fechas</h6>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="fecha-ida" class="form-label">Fecha de ida</label>
+                    <input type="date" class="form-control" id="fecha-ida" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="fecha-vuelta" class="form-label">Fecha de vuelta</label>
+                    <input type="date" class="form-control" id="fecha-vuelta">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pasajeros -->
+            <div class="col-12">
+              <div class="card p-3 shadow-sm">
+                <h6 class="mb-3">Pasajeros</h6>
+                <div class="row g-3">
+                  <div class="col-md-4">
+                    <label for="pasajeros" class="form-label">Número</label>
+                    <input type="number" class="form-control" id="pasajeros" min="1" value="1">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="submit" form="reservaForm" class="btn btn-primary">Confirmar reserva</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Script dinámico -->
+  <script>
+    const aeropuertos = {
+      "Buenos Aires": ["Aeroparque Jorge Newbery (AEP)", "Ezeiza Ministro Pistarini (EZE)"],
+      "Mendoza": ["El Plumerillo (MDZ)"],
+      "Río Negro": ["San Carlos de Bariloche (BRC)"],
+      "Santa Cruz": ["El Calafate (FTE)"],
+      "Salta": ["Martín Miguel de Güemes (SLA)"],
+      "Tierra del Fuego": ["Ushuaia Malvinas Argentinas (USH)"],
+      "Misiones": ["Cataratas del Iguazú (IGR)"],
+      "Chubut": ["El Tehuelche (PMY)"],
+      "Neuquén": ["Presidente Perón (NQN)"],
+      "Córdoba": ["Ingeniero Taravella (COR)"]
+    };
+
+    function actualizarAeropuertos() {
+      const provincia = document.getElementById("origen").value;
+      const selectAeropuerto = document.getElementById("origen-aeropuerto");
+      selectAeropuerto.innerHTML = "<option value=''>Seleccione aeropuerto</option>";
+      if (aeropuertos[provincia]) {
+        aeropuertos[provincia].forEach(a => {
+          let option = document.createElement("option");
+          option.value = a;
+          option.textContent = a;
+          selectAeropuerto.appendChild(option);
+        });
+      }
+    }
+    document.getElementById("origen").addEventListener("change", actualizarAeropuertos);
+
+    // Insertar destino en el modal
+    const reservaModal = document.getElementById("reservaModal");
+    reservaModal.addEventListener("show.bs.modal", event => {
+      const button = event.relatedTarget;
+      const destino = button.getAttribute("data-destino");
+      document.getElementById("destinoSeleccionado").textContent = destino;
+    });
+  </script>
+  
+  <!-- Footer -->
+<footer class="bg-dark text-white py-4">
+  <div class="container d-flex justify-content-between align-items-center flex-wrap">
+    <div>
+      <p class="mb-0">&copy; 2025 CordAir. Todos los derechos reservados.</p>
+      <p class="mb-0">Correo: <a href="mailto:info@cordair.com" class="text-white">info@cordair.com</a></p>
+    </div>
+    <div>
+      <p class="mb-0">Tel: +54 XX XXX XXXX</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="ventas.js"></script>
+</body>
+</html>

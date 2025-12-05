@@ -1,0 +1,34 @@
+header {
+    font-size: 20px;
+    text-decoration: none;
+    font-style: small-caps;
+    color: black;
+    text-align: end;
+}
+
+.nav .nav-item img.nav-link.disabled {
+    height: 2.3em;
+    width: auto;
+    vertical-align: middle;
+    padding: 0;
+    margin-right: 0.5em;
+}
+
+/* Cards */
+#destinos-argentina .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+#destinos-argentina .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+

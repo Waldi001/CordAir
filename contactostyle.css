@@ -1,0 +1,68 @@
+header {
+    font-size: 20px ;
+    text-decoration: none ;
+    font-style: small-caps;
+    color: rgb(0, 0, 0);
+    text-align: end;
+}
+.nav .nav-item img.nav-link.disabled {
+    height: 2.3em;
+    width: auto;
+    vertical-align: middle;
+    padding: 0;
+    margin-right: 0.5em;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #004080;
+}
+
+a {
+  text-decoration: none;
+}
+
+.info-empresa h2 {
+  margin-bottom: 1.5rem;
+}
+
+.info-empresa p {
+  margin-bottom: 1rem;
+}
+
+header {
+  background-image: url('../img/banner-viaje.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #0066cc;
+  border-color: #005bb5;
+}
+
+.btn-primary:hover {
+  background-color: #005bb5;
+  border-color: #004999;
+}
+
+.img-fluid.rounded.shadow {
+  border: 2px solid #ddd;
+}
+
+/* Pie de página */
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #cccccc;
+}
